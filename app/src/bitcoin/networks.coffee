@@ -88,3 +88,26 @@ ledger.bitcoin.Networks =
     version:
       regular: 113
       P2SH: 196
+  gamecredits:
+    name: 'gamecredits'
+    plural: 'gamecredits'
+    bolosAppName: 'Gamecredits'
+    ticker: 'GAME'
+    tickerKey:
+      from: 'fromGAME'
+      to: 'toGAME'
+    bip44_coin_type: '101'
+    version:
+      regular: 38
+      P2SH: 5
+      XPUB: 0x019D9CFE
+    bitcoinjs: bitcoin.networks.gamecredits
+    dust: 10000
+    handleFeePerByte: no
+  gamecredits_test:
+    name: 'gamecredits test'
+    ticker: 'gametest'
+    bip44_coin_type: '1'
+    version:
+      regular: 111
+      P2SH: 196    
