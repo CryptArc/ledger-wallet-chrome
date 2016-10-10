@@ -155,5 +155,26 @@ ledger.preferences.litecoin =
         name: 'Bchain.info'
         address: 'https://bchain.info/LTC/tx/%s'
     discoveryGap: 20
+	
+ledger.preferences.gamecredits =
+  Display:
+    units:
+      bitcoin:
+        symbol: 'GAME'
+        unit: 8
+      milibitcoin:
+        symbol: 'mGAME'
+        unit: 5
+      microbitcoin:
+        symbol: 'μGAME'
+        unit: 2
+
+  # Coin preferences
+  Coin:
+    explorers:
+      blockr:
+        name: 'www.zpool.ca'
+        address: 'https://www.zpool.ca/explorer/GAME?txid=%s'
+    discoveryGap: 20	
 
 ledger.preferences.common.setCoin("bitcoin")
